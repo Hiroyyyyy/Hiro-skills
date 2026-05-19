@@ -1,4 +1,4 @@
-# FPGA Verilog Skill EN
+# Awesome Verilog EN
 
 An English Verilog-2005 skill for FPGA development. It generates synthesizable RTL from natural language and supports code review, debugging, and testbench guidance.
 
@@ -26,7 +26,7 @@ An English Verilog-2005 skill for FPGA development. It generates synthesizable R
 ## File Structure
 
 ```text
-fpga-verilog-skill-en/
+awesome-verilog-en/
 ├── SKILL.md
 ├── README.md
 ├── agents/
@@ -83,29 +83,29 @@ Use this folder inside a Claude Code or Codex skill directory.
 Recommended location:
 
 ```text
-~/.codex/skills/fpga-verilog-skill-en/
+~/.codex/skills/awesome-verilog-en/
 ```
 
 It can also be referenced directly from the current workspace:
 
 ```text
-Use $fpga-verilog-skill-en to generate a UART transmitter in Verilog-2005.
+Use $awesome-verilog-en to generate a UART transmitter in Verilog-2005.
 ```
 
 Typical generation request:
 
 ```text
-Use $fpga-verilog-skill-en to generate a parameterized synchronous FIFO with depth 16, 8-bit data, and a valid/ready interface.
+Use $awesome-verilog-en to generate a parameterized synchronous FIFO with depth 16, 8-bit data, and a valid/ready interface.
 ```
 
 Review request:
 
 ```text
-Use $fpga-verilog-skill-en to review this Verilog module for reset, width, multiple-driver, and CDC risks.
+Use $awesome-verilog-en to review this Verilog module for reset, width, multiple-driver, and CDC risks.
 ```
 
 Testbench request:
 
 ```text
-Use $fpga-verilog-skill-en to generate a Verilog-2005 testbench for this counter.
+Use $awesome-verilog-en to generate a Verilog-2005 testbench for this counter.
 ```

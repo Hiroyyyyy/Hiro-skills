@@ -1,5 +1,5 @@
 ---
-name: fpga-verilog-skill-cn
+name: awesome-verilog-cn
 description: 面向 FPGA 的 Verilog-2005 RTL 生成、审查、调试和测试平台指导。用于从自然语言生成可综合 Verilog 模块、推导接口、执行自检，以及审查 FSM、CDC、综合安全性等问题。
 ---
 

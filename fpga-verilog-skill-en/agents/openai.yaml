@@ -1,4 +1,0 @@
-interface:
-  display_name: "FPGA Verilog Skill EN"
-  short_description: "FPGA Verilog-2005 RTL generation and review"
-  default_prompt: "Use $fpga-verilog-skill-en to generate a synthesizable FPGA Verilog-2005 module from my natural-language requirements."

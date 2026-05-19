@@ -1,5 +1,5 @@
 ---
-name: fpga-verilog-skill-en
+name: awesome-verilog-en
 description: FPGA-focused Verilog-2005 RTL generation, review, debugging, and testbench guidance. Use when generating synthesizable Verilog modules from natural language, deriving interfaces, running self-checks, or reviewing FSM, CDC, and synthesis-safety issues.
 ---
 

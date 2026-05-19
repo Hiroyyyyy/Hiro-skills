@@ -1,4 +1,0 @@
-interface:
-  display_name: "FPGA Verilog Skill CN"
-  short_description: "中文 FPGA Verilog-2005 RTL 生成与审查"
-  default_prompt: "Use $fpga-verilog-skill-cn to generate a synthesizable FPGA Verilog-2005 module from my natural-language requirements."

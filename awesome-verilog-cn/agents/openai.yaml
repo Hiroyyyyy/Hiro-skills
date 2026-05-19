@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome Verilog CN"
+  short_description: "中文 FPGA Verilog-2005 RTL 生成与审查"
+  default_prompt: "Use $awesome-verilog-cn to generate a synthesizable FPGA Verilog-2005 module from my natural-language requirements."

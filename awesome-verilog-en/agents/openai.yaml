@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome Verilog EN"
+  short_description: "FPGA Verilog-2005 RTL generation and review"
+  default_prompt: "Use $awesome-verilog-en to generate a synthesizable FPGA Verilog-2005 module from my natural-language requirements."
