@@ -1,4 +1,4 @@
-# Awesome Verilog CN
+# Awesome Verilog
 
 面向 FPGA 开发的中文 Verilog-2005 Skill，用于从自然语言生成可综合 RTL，并对代码进行审查、调试和测试平台指导。
 
@@ -26,7 +26,7 @@
 ## 文件结构
 
 ```text
-awesome-verilog-cn/
+awesome-verilog/
 ├── SKILL.md
 ├── README.md
 ├── agents/
@@ -83,29 +83,29 @@ Skill 使用三步工作流：
 推荐方式：
 
 ```text
-~/.codex/skills/awesome-verilog-cn/
+~/.codex/skills/awesome-verilog/
 ```
 
 也可以在当前工作区中直接引用：
 
 ```text
-Use $awesome-verilog-cn to generate a UART transmitter in Verilog-2005.
+Use $awesome-verilog to generate a UART transmitter in Verilog-2005.
 ```
 
 典型请求：
 
 ```text
-使用 $awesome-verilog-cn 生成一个参数化同步 FIFO，深度 16，数据宽度 8 bit，带 valid/ready 接口。
+使用 $awesome-verilog 生成一个参数化同步 FIFO，深度 16，数据宽度 8 bit，带 valid/ready 接口。
 ```
 
 审查请求：
 
 ```text
-使用 $awesome-verilog-cn 审查这个 Verilog 模块的复位、位宽、多驱动和 CDC 风险。
+使用 $awesome-verilog 审查这个 Verilog 模块的复位、位宽、多驱动和 CDC 风险。
 ```
 
 测试平台请求：
 
 ```text
-使用 $awesome-verilog-cn 为这个计数器生成 Verilog-2005 testbench。
+使用 $awesome-verilog 为这个计数器生成 Verilog-2005 testbench。
 ```

@@ -4,5 +4,4 @@
 
 ## 目录
 
-- `awesome-verilog-cn` - FPGA/Verilog 开发技能（中文版）
-- `awesome-verilog-en` - FPGA/Verilog Development Skills (English)
+- `awesome-verilog` - FPGA/Verilog 开发技能

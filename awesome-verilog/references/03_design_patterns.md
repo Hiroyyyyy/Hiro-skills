@@ -122,7 +122,7 @@ assign pulse_dst = pulse_sync[2] ^ pulse_sync[1];
 
 CDC 注释：
 
-- 每个 CDC 附近写方向：`// CDC: clk_src -> clk_dst`。
+- 每个 CDC 附近写方向：`// 跨时钟域: clk_src -> clk_dst`。
 - 同步器命名保持简洁：`req_sync`、`pulse_sync`。
 
 ## FSM
@@ -137,9 +137,9 @@ CDC 注释：
 
 ```verilog
 localparam [2:0]
-    STATE_IDLE = 3'b001,  // Waiting for start
-    STATE_RUN  = 3'b010,  // Work in progress
-    STATE_DONE = 3'b100;  // Work completed
+    STATE_IDLE = 3'b001,  // 等待启动
+    STATE_RUN  = 3'b010,  // 运行中
+    STATE_DONE = 3'b100;  // 工作完成
 ```
 
 寄存输出 FSM 片段：
@@ -272,7 +272,7 @@ AXI 规则：
 时钟和复位：
 
 ```verilog
-localparam CLK_PERIOD = 10;  // Clock period in ns
+localparam CLK_PERIOD = 10;  // 时钟周期，单位 ns
 
 initial
     begin

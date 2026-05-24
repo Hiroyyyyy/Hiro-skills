@@ -24,7 +24,7 @@
 // Date : 2026-05-19
 // -----------------------------------------------------------------------------
 // Description:
-//   Counts accepted input pulses and exposes the current count.
+//   统计已接收的输入脉冲并输出当前计数值。
 // -----------------------------------------------------------------------------
 ```
 
@@ -55,7 +55,7 @@
 ```verilog
 module pulse_counter #
 (
-    parameter COUNT_WIDTH = 8  // Counter width in bits
+    parameter COUNT_WIDTH = 8  // 计数器位宽
 )
 (
     input  wire                   i_clk,
@@ -107,8 +107,8 @@ endmodule
 - 派生值优先用 `localparam`。
 
 ```verilog
-parameter DATA_WIDTH = 8,   // Data bus width in bits
-parameter DEPTH      = 16   // Number of storage entries
+parameter DATA_WIDTH = 8,   // 数据总线位宽
+parameter DEPTH      = 16   // 存储条目数
 ```
 
 ## 参数验证

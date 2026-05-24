@@ -93,8 +93,8 @@ assign sum_valid = i_valid & o_ready;
 参数注释示例：
 
 ```verilog
-parameter DATA_WIDTH = 8,   // Data bus width in bits
-parameter DEPTH      = 16   // Number of storage entries
+parameter DATA_WIDTH = 8,   // 数据总线位宽
+parameter DEPTH      = 16   // 存储条目数
 ```
 
 ## begin / end
