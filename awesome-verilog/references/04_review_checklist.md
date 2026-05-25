@@ -16,14 +16,15 @@
 
 ```text
 [PASS/FAIL] 文件头完整（File/Date/Description 已填写）
-[PASS/FAIL] 编译指令完整（resetall / timescale / default_nettype / endmodule / resetall）
+[PASS/FAIL] 编译指令完整（timescale / default_nettype）
 ```
 
 ### 语法边界
 
 ```text
 [PASS/FAIL] Verilog-2005 语法（无 SystemVerilog 语法泄漏）
-[PASS/FAIL] 无仿真专用行为（RTL 中无 #delay/$display/$finish/$monitor）
+[PASS/FAIL] RTL 中无 initial 块（testbench 除外）
+[PASS/FAIL] RTL 中无 #delay / $display / $finish / $monitor（testbench 除外）
 [PASS/FAIL] 无占位符或空实现
 ```
 
@@ -35,6 +36,7 @@
 [PASS/FAIL] spacing（缩进、空格、对齐、行尾空白符合规则）
 [PASS/FAIL] 参数注释（每个 parameter 均有同一行注释）
 [PASS/FAIL] 注释使用中文（仅专用术语/变量/公式符号可保留英文）
+[PASS/FAIL] 段分隔注释顶格书写
 ```
 
 ### 信号与赋值

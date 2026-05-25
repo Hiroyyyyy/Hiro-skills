@@ -85,6 +85,7 @@ assign sum_valid = i_valid & o_ready;
 | 对象 | 要求 |
 |---|---|
 | 文件头 `Description` | 说明模块用途和关键行为 |
+| 段分隔注释 | 顶格书写（第 0 列），不随代码缩进 |
 | `parameter` | 每个参数必须在定义同一行写注释 |
 | `localparam` | 状态、常量、编码需要简短注释 |
 | CDC 信号 | 注明跨域方向 |
@@ -203,4 +204,5 @@ endcase
 | 门控时钟 | FPGA 时钟网络不应由组合逻辑改写 |
 | 未同步 CDC | 可能产生亚稳态 |
 | `#delay` in RTL | 不可综合 |
-| `$display` / `$finish` in RTL | 只用于 testbench 或参数检查 |
+| RTL 中 `initial` 块 | 仅允许在 testbench 中使用 |
+| `$display` / `$finish` | 仅允许在 testbench 中使用 |
